@@ -40,8 +40,8 @@ public class MessageController {
 	}
 	
 	@PostMapping("/add")
-	public ModelAndView addPost( @ModelAttribute() MessageDTO message ) {
+	public ModelAndView addMessage( @ModelAttribute() MessageDTO message ) {
 		messageService.addMessage(message);
-		return new ModelAndView("redirect:/private/post");
+		return new ModelAndView("redirect:/private/message");
 	}
 }

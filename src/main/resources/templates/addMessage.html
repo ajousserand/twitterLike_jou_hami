@@ -9,7 +9,7 @@
 
     <form th:action="@{/private/message/add}" th:object="${message}" method="post">
         <input type="text" th:field="*{content}"/> <br />
-        <input type="radio" th:field="*{category}"/> <br />
+        <input type="radio" th:value="*{category}"/> <br />
         <input type="submit" value="Add" />
     </form>
 
