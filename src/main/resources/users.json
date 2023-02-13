@@ -1,4 +1,4 @@
-[{
+[ {
   "id" : 1,
   "username" : "user",
   "password" : "$2a$12$a5uMRm0MNoSWZmZ3c1ZsYeDppRyTxorA54Ubmp3ShZTOwaUKIvOku",
@@ -8,5 +8,9 @@
   "username" : "admin",
   "password" : "$2a$12$5Imjk1at5PVBS3CyKSXBKOJu2pdlbGQxFJB79UBA6CwrAPRpw6f4K",
   "role" : "ADMIN"
-}
-]
+}, {
+  "id" : 3,
+  "username" : "anthony",
+  "password" : "$2a$10$jOgNSDo0HJ3heD4MIsvc3.L66VcBkAHFAcpSNuxw.W5Yboca0j7ry",
+  "role" : "USER"
+} ]

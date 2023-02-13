@@ -1,11 +1,13 @@
 package com.exam.twitter.models;
 
+import java.util.List;
 
 public class LocalUser {
 
 	private Integer id;
 	private String username;
 	private String password;
+	private List<Category> category;
 	private String role;
 	
 	
@@ -52,6 +54,14 @@ public class LocalUser {
 
 	public void setRole(String role) {
 		this.role = role;
+	}
+
+	public List<Category> getCategory() {
+		return category;
+	}
+
+	public void setCategory(List<Category> category) {
+		this.category = category;
 	}
 	
 	
