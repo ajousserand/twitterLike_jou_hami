@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Message</title>
+</head>
+<body>
+    <h1>New message</h1>
+
+    <form th:action="@{/private/message/add}" th:object="${message}" method="post">
+        <input type="text" th:field="*{content}"/> <br />
+        <input type="radio" th:value="*{category}"/> <br />
+        <input type="submit" value="Add" />
+    </form>
+
+</body>
+</html>

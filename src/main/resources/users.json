@@ -18,8 +18,13 @@
   "role" : "USER"
 }, {
   "id" : 4,
+<<<<<<< HEAD
   "username" : "anthony",
   "password" : "$2a$10$ncVSVFPmVVX.z1tWmYuhfOkhle.H7Gn06ZfXfCjtvoRVLiUfHO9vm",
+=======
+  "username" : "Hakim",
+  "password" : "$2a$10$K2nO9C/c8wlNWUvHvlzuxOwCouATYgzl7NW5Qa8to6z/x3CoG/KM2",
+>>>>>>> c9f86a1bf85c922f8ef1545650bcad227f84d872
   "category" : null,
   "role" : "USER"
 } ]
