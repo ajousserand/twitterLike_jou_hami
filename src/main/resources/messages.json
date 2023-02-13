@@ -3,4 +3,9 @@
   "content" : "I write bad news",
   "category" : null,
   "authorName" : "anthony"
+}, {
+  "id" : 1,
+  "content" : "I write bad news",
+  "category" : null,
+  "authorName" : "tata"
 } ]

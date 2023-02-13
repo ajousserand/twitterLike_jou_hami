@@ -25,8 +25,8 @@ public class UserController {
 	@GetMapping("private/user")
 	public ModelAndView adminPage() {		
 		List<UserDTO> users = userService.getUsers();
-		ModelAndView mav = new ModelAndView("admin");
-		mav.addObject("users", users);		
+		ModelAndView mav = new ModelAndView("login");
+		mav.addObject("login", users);		
 		return mav;
 	}
 	
