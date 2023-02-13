@@ -1,5 +1,5 @@
 package com.exam.twitter.models;
 
 public enum Category {
-	JAVA,PHP,Angular,REACTJS,VUEJS,Symfony,SPRING,SQL,NOSQL
+	JAVA,PHP,ANGULAR,REACTJS,VUEJS,SYMFONY,SPRING,SQL,NOSQL
 }
