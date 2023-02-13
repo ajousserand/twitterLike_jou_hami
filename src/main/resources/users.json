@@ -2,15 +2,24 @@
   "id" : 1,
   "username" : "user",
   "password" : "$2a$12$a5uMRm0MNoSWZmZ3c1ZsYeDppRyTxorA54Ubmp3ShZTOwaUKIvOku",
+  "category" : null,
   "role" : "USER"
 }, {
   "id" : 2,
   "username" : "admin",
   "password" : "$2a$12$5Imjk1at5PVBS3CyKSXBKOJu2pdlbGQxFJB79UBA6CwrAPRpw6f4K",
+  "category" : null,
   "role" : "ADMIN"
 }, {
   "id" : 3,
   "username" : "anthony",
   "password" : "$2a$10$jOgNSDo0HJ3heD4MIsvc3.L66VcBkAHFAcpSNuxw.W5Yboca0j7ry",
+  "category" : null,
+  "role" : "USER"
+}, {
+  "id" : 4,
+  "username" : "anthony",
+  "password" : "$2a$10$ncVSVFPmVVX.z1tWmYuhfOkhle.H7Gn06ZfXfCjtvoRVLiUfHO9vm",
+  "category" : null,
   "role" : "USER"
 } ]
